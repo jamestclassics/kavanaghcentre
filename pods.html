@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamping Pods Gallery</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        /* Gallery grid styling */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        /* Individual image styling */
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Back button styling */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explore Our Glamping Pods</h1>
+        <p>Take a look at our cozy, eco-friendly glamping pods – perfect for the cultural, eco-conscious, and outdoor enthusiast.</p>
+
+        <!-- Image gallery grid -->
+        <div class="gallery">
+            <img src="images/pods9.jpg" alt="Glamping Pod 1">
+            <img src="images/pods10.jpg" alt="Glamping Pod 2">
+            <img src="images/pods3.jpg" alt="Glamping Pod 3">
+            <img src="images/pods4.jpg" alt="Glamping Pod 4">
+            <img src="images/pods5.jpg" alt="Glamping Pod 5">
+            <img src="images/pods6.jpg" alt="Glamping Pod 6">
+            <img src="images/pods7.jpg" alt="Glamping Pod 7">
+            <img src="images/pods8.jpg" alt="Glamping Pod 8">
+<img src="images/pods1.jpg" alt="Glamping Pod 9">
+<img src="images/pods2.jpg" alt="Glamping Pod 10">
+        </div>
+
+        <!-- Back button to return to the map page -->
+        <a href="index.html" class="back-button">&larr; Back to Map</a>
+    </div>
+</body>
+</html>
